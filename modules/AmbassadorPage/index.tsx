@@ -2,24 +2,23 @@
 
 import { Button } from "~/components/ui/button";
 import Countdown from "~/components/elements/Countdown";
-import { User, Search, Laptop2 } from "lucide-react";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "~/components/ui/accordion";
+import { User, Search, Laptop2, ChevronUp, ChevronDown } from "lucide-react";
 
 export default function AmbassadorPage() {
   return (
     <main className="bg-[#0B0B2E]">
       {/* HERO SECTION */}
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 py-20 lg:py-32">
-        {/* Ilustrasi pilar kiri-kanan dibiarkan kosong dulu */}
-
         <div className="z-10 flex max-w-3xl flex-col items-center gap-6 text-center">
-          <h1 className="font-league-spartan text-4xl text-primary-10 font-bold sm:text-5xl ig: text-h1">
+          <h1 className="font-league-spartan text-4xl text-primary-10 font-bold sm:text-5xl lg:text-h1">
             Open Recruitment Ambassador
-            </h1>
-            <h2 className="font-league-spartan text-2xl text-primary-10 font-bold sm: text-3xl lg: text-h2">
+          </h1>
+          <h2 className="font-league-spartan text-2xl text-primary-10 font-bold sm:text-3xl lg:text-h2">
             Open House Fasilkom UI 2026
           </h2>
 
-          <p className="font-league-spartan text-b5 text-primary-20 font-bold hidden max-w-2xl lg:block">
+          <p className="font-league-spartan text-b5 text-primary-20 hidden max-w-2xl font-bold lg:block">
             Ambassador Open House Fasilkom UI adalah ikon OH Fasilkom UI yang
             bertugas untuk mempromosikan acara OH Fasilkom UI dan Fakultas
             Ilmu Komputer Universitas Indonesia kepada masyarakat.
@@ -60,60 +59,101 @@ export default function AmbassadorPage() {
         </div>
       </section>
 
-      {/*  ABOUT AMBASSADOR SECTION  */}
+      {/* ABOUT AMBASSADOR SECTION */}
       <section className="relative flex flex-col items-center gap-12 overflow-hidden px-6 py-24">
-
-        <h3 className="font-league-spartan text-h1 text-primary-10 max-w-3xl text-center font-bold">
+        <h3 className="font-league-spartan text-3xl text-primary-10 max-w-3xl text-center font-bold sm:text-4xl lg:text-h1">
           Apa itu Ambassador
           <br />
           Open House Fasilkom UI?
         </h3>
 
-        <div className="relative flex w-full max-w-5xl flex-col items-center justify-center gap-0 lg:flex-row lg:items-end">
-          {/* whiteboard card gtw blm nemu gambar tripodnya */}
-          <div className="relative z-10 w-full max-w-2xl rounded-[32px] border-4 border-[#0B0B2E] bg-white p-8 shadow-xl">
-            <p className="font-aileron text-b7 text-primary-90">
-              <span className="font-bold">Program Ambassador</span> Open
-              House Fasilkom UI 2026 mengajak anak-anak SMA/K sederajat dan
-              influencer untuk meningkatkan{" "}
-              <span className="font-bold">brand awareness Fasilkom UI</span>.
-              Ambassador bertugas membuat konten digital untuk menyebarkan
-              informasi mengenai Open House Fasilkom UI dan Fasilkom UI.
-            </p>
+        <div className="relative flex w-full max-w-5xl flex-col items-center justify-center gap-0 lg:flex-row lg:items-center">
+          <img
+           alt="Program Ambassador Open House Fasilkom UI 2026 mengajak anak-anak SMA/K sederajat dan influencer untuk meningkatkan brand awareness Fasilkom UI. 200+ pendaftar dari seluruh Indonesia, 250+ pengguna referral code."
+           src="/design-system/Projector Final.png"
+           className="w-full max-w-2xl"
+          />
 
-            <div className="mt-6 flex flex-col gap-4 sm:flex-row">
-              <div className="from-primary-60 to-primary-10 flex-1 rounded-xl bg-gradient-to-br px-4 py-5">
-                <p className="font-league-spartan text-h4 text-tertiary-30 font-bold">
-                  200+
-                </p>
-                <p className="font-aileron text-b7 text-primary-10">
-                  Pendaftar dari seluruh Indonesia
-                </p>
-              </div>
-              <div className="from-primary-60 to-primary-10 flex-1 rounded-xl bg-gradient-to-br px-5 py-4">
-                <p className="font-league-spartan text-h4 text-tertiary-30 font-bold">
-                  250+
-                </p>
-                <p className="font-aileron text-b7 text-primary-10">
-                  Pengguna Referral Code
-                </p>
-              </div>
-            </div>
-
-            {/* tripod nanti diganti dengan kalo nemu assetnya */}
-            <div className="absolute -bottom-10 left-1/2 h-10 w-1 -translate-x-1/2 bg-[#0B0B2E]" />
-            <div className="absolute -bottom-10 left-1/2 h-1 w-16 -translate-x-1/2 rotate-45 bg-[#0B0B2E]" />
-            <div className="absolute -bottom-10 left-1/2 h-1 w-16 -translate-x-1/2 -rotate-45 bg-[#0B0B2E]" />
-          </div>
-
-          {/* Panda illustration — disembunyikan di mobile, muncul dari breakpoint lg ke atas */}
           <img
             alt="Ambassador Panda Mascot"
-            src="/design-system/panda-buka-folder.svg"
+            src="/design-system/MC 3.png"
             className="relative z-20 hidden w-72 lg:block"
           />
         </div>
       </section>
+
+      {/* AMBASSADOR ARCHIVE SECTION */}
+      <section className="relative flex flex-col items-center gap-12 overflow-hidden px-6 py-24">
+        <h3 className="font-league-spartan text-3xl text-primary-10 max-w-3xl text-center font-bold sm:text-4xl lg:text-h1">
+          Ambassador 2025&rsquo;s Archive
+        </h3>
+
+        {/* Desktop */}
+        <img
+          alt="Ambassador 2025's Archive"
+          src="/design-system/Paper-desktop.png"
+          className="mx-auto hidden max-w-4xl lg:block"
+        />
+
+        {/* Mobile */}
+        <img
+          alt="Ambassador 2025's Archive"
+          src="/design-system/Paper-mobile.png"
+          className="mx-auto block w-full max-w-xs lg:hidden"
+        />
+      </section>
+
+      {/*FAQ SECTION */}
+      <section className="relative overflow-hidden bg-[#5B4FCF] px-6 py-24">
+      <div className="mx-auto max-w-5xl">
+      <h3 className="font-league-spartan text-3xl text-primary-10 text-center font-bold sm:text-4xl lg:text-h1">
+      Need More Help?
+      </h3>
+      <p className="font-aileron text-primary-10 mt-2 mb-12 text-center text-lg font-bold sm:text-4xl lg:text-h3">
+      “Temukan berbagai pertanyaan serta jawaban seputar ambassador di sini!”
+    </p>
+
+    <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
+      {/* Daftar FAQ */}
+      <div className="flex flex-1 flex-col gap-4">
+        <Accordion type="single" collapsible>
+         <AccordionItem value="item-1">
+          <AccordionTrigger>Apa aja benefit daftar Ambassador?</AccordionTrigger>
+          <AccordionContent>Sebagai Ambassador, kamu akan terlibat langsung dalam promosi OH Fasilkom, berkesempatan membangun relasi dengan teman-teman dari seluruh Indonesia, mendapatkan akses ke program eksklusif seperti webinar dan mentoring, serta memperluas wawasan seputar teknologi, bisnis digital, dan masa depan industri IT.</AccordionContent>
+         </AccordionItem>
+        </Accordion>
+
+        {[
+          "Bagaimana jika aku memiliki kesibukan lain dan ingin mendaftar?",
+          "Berapa lama program Ambassador ini berjalan?",
+          "Harus bisa ngedit video gak kak??",
+          "Aku dari luar Jabodetabek, bisa ikut juga gak?",
+          "Apakah program ini berbayar?",
+          "Harus terkenal ya kak?",
+        ].map((question) => (
+          <div
+            key={question}
+            className="bg-primary-70 flex items-center justify-between rounded-xl p-5 shadow-md"
+          >
+            <p className="font-aileron text-primary-10 font-bold">
+              {question}
+            </p>
+            <ChevronDown className="text-primary-10 h-5 w-5 shrink-0" />
+          </div>
+        ))}
+      </div>
+
+      {/* Panda illustration */}
+      <img
+        alt="Panda kebingungan"
+        src="/design-system/panda-bingung.png"
+        className="relative hidden w-64 shrink-0 self-center lg:block"
+      />
+    </div>
+       </div>
+       </section>
+
+    
     </main>
   );
 }
