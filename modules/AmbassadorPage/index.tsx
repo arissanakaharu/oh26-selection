@@ -109,7 +109,7 @@ export default function AmbassadorPage() {
       <h3 className="font-league-spartan text-3xl text-primary-10 text-center font-bold sm:text-4xl lg:text-h1">
       Need More Help?
       </h3>
-      <p className="font-aileron text-primary-10 mt-2 mb-12 text-center text-lg font-bold sm:text-4xl lg:text-h3">
+      <p className="font-aileron text-primary-10 mt-2 mb-12 text-center text-lg font-bold lg:text-base lg:font-semibold">
       “Temukan berbagai pertanyaan serta jawaban seputar ambassador di sini!”
     </p>
 
