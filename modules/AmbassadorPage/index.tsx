@@ -188,53 +188,55 @@ export default function AmbassadorPage() {
 <div className="relative block lg:hidden">
   <img alt="" src="/design-system/footer-mobile.webp" className="w-full" />
 
-  <div className="absolute inset-x-0 bottom-0 flex flex-col items-center gap-4 px-6 pb-8 text-center">
-    <div className="flex flex-col items-center gap-1">
-      <div className="relative w-14">
-        <img
-          alt=""
-          src="/design-system/glow-effect-under-logo-footer.svg"
-          className="absolute inset-0"
-        />
-        <img
-          alt="Open House Fasilkom UI 2026"
-          src="/design-system/logo-no-bg.svg"
-          className="relative w-14"
-        />
+  <div className="absolute inset-x-0 bottom-0 flex flex-col gap-5 px-8 pb-8">
+    <div className="flex items-start justify-between">
+      {/* logo */}
+      <div className="flex flex-col items-center gap-1">
+        <div className="relative flex flex-col items-center">
+          
+          <img
+            alt="Open House Fasilkom UI 2026"
+            src="/design-system/logo-no-bg.svg"
+            className="relative z-10 w-16"
+          />
+        </div>
+        <p className="font-aileron text-primary-10 text-center text-sm font-semibold">
+          Open House
+          <br />
+          Fasilkom UI 2026
+        </p>
       </div>
-      <p className="font-aileron text-primary-10 text-sm font-semibold">
-        Open House
-        <br />
-        Fasilkom UI 2026
-      </p>
+
+      <div className="flex flex-col items-end gap-3">
+        <div className="flex items-center gap-2">
+          <span className="font-aileron text-primary-10 text-xs">
+            Supported By:
+          </span>
+          <img
+            alt="Fakultas Ilmu Komputer UI"
+            src="/design-system/fasilkom.svg"
+            className="h-8"
+          />
+        </div>
+
+        <div className="flex items-center gap-3">
+          <a aria-label="Instagram" href="#">
+            <Instagram size="w-4 h-4" fill="fill-primary-10" />
+          </a>
+          <a aria-label="TikTok" href="#">
+            <Tiktok size="w-4 h-4" fill="fill-primary-10" />
+          </a>
+          <a aria-label="Twitter/X" href="#">
+            <Twitter size="w-4 h-4" fill="fill-primary-10" />
+          </a>
+          <a aria-label="YouTube" href="#">
+            <Youtube size="w-4 h-4" fill="fill-primary-10" />
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div className="flex items-center gap-2">
-      <span className="font-aileron text-primary-10 text-xs">
-        Supported By:
-      </span>
-      <img
-        alt="Fakultas Ilmu Komputer UI"
-        src="/design-system/fasilkom.svg"
-        className="h-6"
-      />
-    </div>
-
-    <div className="flex items-center gap-4">
-      <a aria-label="Instagram" href="#">
-        <Instagram size="w-4 h-4" fill="fill-primary-10" />
-      </a>
-      <a aria-label="TikTok" href="#">
-        <Tiktok size="w-4 h-4" fill="fill-primary-10" />
-      </a>
-      <a aria-label="Twitter/X" href="#">
-        <Twitter size="w-4 h-4" fill="fill-primary-10" />
-      </a>
-      <a aria-label="YouTube" href="#">
-        <Youtube size="w-4 h-4" fill="fill-primary-10" />
-      </a>
-    </div>
-
+    {/* Email */}
     <p className="font-aileron text-primary-10 text-xs">
       ohfasilkomui2026@gmail.com
     </p>
