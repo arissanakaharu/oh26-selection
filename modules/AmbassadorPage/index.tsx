@@ -114,7 +114,7 @@ export default function AmbassadorPage() {
       Need More Help?
       </h3>
       <p className="font-aileron text-primary-10 mt-2 mb-12 text-center text-lg font-bold lg:text-base lg:font-semibold">
-      “Temukan berbagai pertanyaan serta jawaban seputar ambassador di sini!”
+      Temukan berbagai pertanyaan serta jawaban seputar ambassador di sini!
     </p>
 
     <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
