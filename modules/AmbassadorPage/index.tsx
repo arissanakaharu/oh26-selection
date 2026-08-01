@@ -3,7 +3,7 @@
 import { Button } from "~/components/ui/button";
 import Countdown from "~/components/elements/Countdown";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "~/components/ui/accordion";
-import { User, Search, Laptop2, ChevronUp, ChevronDown, MessageCircle } from "lucide-react";
+import { User, Search, Laptop2, ChevronDown, MessageCircle } from "lucide-react";
 import { Instagram } from "~/components/icons/instagram";
 import { Tiktok } from "~/components/icons/tiktok";
 import { Twitter } from "~/components/icons/twitter";
@@ -177,12 +177,12 @@ export default function AmbassadorPage() {
     <MessageCircle className="h-4 w-4" />
     Contact Person
    </Button>
-  <Button variant="primary" className="h-auto min-w-0 gap-2 px-4 py-2 text-sm">
+   <Button variant="primary" className="h-auto min-w-0 gap-2 px-4 py-2 text-sm">
     <MessageCircle className="h-4 w-4" />
     Contact Person
-  </Button>
-</div>
-</section>
+   </Button>
+   </div>
+   </section>
 
 {/* FOOTER */}
 <div className="relative block lg:hidden">
