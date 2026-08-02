@@ -25,10 +25,10 @@ cd oh26-selection
 ```
 3. **Install dependencies:**
 ```bash
-npm install
+bun install
 ```
 4. **Run development server:**
 ```bash
-npm run dev
+bun dev
 ```
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
