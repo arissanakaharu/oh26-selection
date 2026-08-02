@@ -1,40 +1,40 @@
-## Getting Started
-Hello future IT Developers!
-This is the repo which you'll clone and work on for the next week.
+# Hanunisa Diar - OH26 Selection Task
 
-Copy and run these commands to get the repo up and running on your machine.
+Contains the results of the selection assignment for OH26. 
 
-First, you clone and remove the remote uri to the remote repo.
+## Live Website
+[http://ristek.link/oh26-selection](http://ristek.link/oh26-selection)
+
+##  Tech Stack
+- Framework: Next.js / React 
+- Styling: Tailwind CSS / CSS Modules
+- Language: TypeScript / JavaScript
+
+## Key Features
+- Implement features in accordance with the requirements outlined in the selection task.
+- A functional and responsive user interface (UI).
+- Clean and well-organized code.
+
+##  Getting Started
+Follow these steps to run the project on your local computer for review purposes:
+
+1. **Clone repository:**
 ```bash
-git clone https://github.com/JocimSus/oh26rec-template
-cd oh26rec-template/
-git remote remove origin
+git clone https://github.com/arissanakaharu/oh26-selection.git
 ```
-
-Then, you create a new repo on your account.
-![](https://zip.jocimsus.tech/u/oTMVB5.png)
-
-After that, copy the uri of the newly made repo.
-![](https://zip.jocimsus.tech/u/uEWNNm.png)
-
-After getting your own repo's url run these commands
+2. **Go to directory:**
 ```bash
-git remote add origin YOUR_REPOSITORY_URL
-git add .
-git commit -m "Level 0: Clone Repo"
-git push -u origin main 
+cd oh26-selection
 ```
-
-Finally, run the development server:
+3. **Install dependencies:**
+```bash
+bun install
+```
+4. **Run development server:**
 ```bash
 bun dev
 ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `@/modules/AmbassadorPage/index.tsx`. The page auto-updates as you edit the file.
-
-## Deploy on Vercel
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+© 2026 Hanunnisa Diar. All rights reserved.
