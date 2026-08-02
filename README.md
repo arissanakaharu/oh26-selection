@@ -2,6 +2,9 @@
 
 Contains the results of the selection assignment for OH26. 
 
+## Live Website
+[http://ristek.link/oh26-selection(http://ristek.link/oh26-selection)]
+
 ##  Tech Stack
 - Framework: Next.js / React 
 - Styling: Tailwind CSS / CSS Modules
