@@ -3,7 +3,7 @@
 Contains the results of the selection assignment for OH26. 
 
 ## Live Website
-[http://ristek.link/oh26-selection(http://ristek.link/oh26-selection)]
+[http://ristek.link/oh26-selection](http://ristek.link/oh26-selection)
 
 ##  Tech Stack
 - Framework: Next.js / React 
@@ -35,3 +35,6 @@ bun install
 bun dev
 ```
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📄 License
+© 2026 Hanunnisa Diar. All rights reserved.
