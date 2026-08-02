@@ -3,12 +3,12 @@
 Contains the results of the selection assignment for OH26. 
 
 ##  Tech Stack
-Framework:  Next.js / React 
-Styling: Tailwind CSS / CSS Modules
-Language: (Silakan isi: TypeScript / JavaScript
+- Framework: Next.js / React 
+- Styling: Tailwind CSS / CSS Modules
+- Language: TypeScript / JavaScript
 
 ## Key Features
--Implement features in accordance with the requirements outlined in the selection task.
+- Implement features in accordance with the requirements outlined in the selection task.
 - A functional and responsive user interface (UI).
 - Clean and well-organized code.
 
