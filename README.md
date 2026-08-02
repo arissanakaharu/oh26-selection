@@ -15,16 +15,20 @@ Language: (Silakan isi: TypeScript / JavaScript
 ##  Getting Started
 Follow these steps to run the project on your local computer for review purposes:
 
-1. Clone repository:
+1. **Clone repository:**
+```bash
 git clone https://github.com/arissanakaharu/oh26-selection.git
-
-2. Go to directory:
+```
+2. **Go to directory:**
+```bash
 cd oh26-selection
-
-3. Install dependencies:
+```
+3. **Install dependencies:**
+```bash
 npm install
-
-4. Rum development server:
+```
+4. **Run development server:**
+```bash
 npm run dev
-
-5. Open http://localhost:3000 in your browser
+```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
